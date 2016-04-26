@@ -7,6 +7,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication3", "WebAppli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{0B71A337-C816-44A6-8C9F-64FAD6DA1517}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodedUITestProject1", "CodedUITestProject1\CodedUITestProject1.csproj", "{F2679CF0-9913-46DB-B0B2-94ACEB50BC1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAndLoadTestProject1", "WebAndLoadTestProject1\WebAndLoadTestProject1.csproj", "{FEEEBBBC-8A7B-489E-AC80-8A19CCA1177B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{74065E00-C962-431D-8CF6-914E4D72EDBF}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +30,14 @@ Global
 		{0B71A337-C816-44A6-8C9F-64FAD6DA1517}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B71A337-C816-44A6-8C9F-64FAD6DA1517}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B71A337-C816-44A6-8C9F-64FAD6DA1517}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2679CF0-9913-46DB-B0B2-94ACEB50BC1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2679CF0-9913-46DB-B0B2-94ACEB50BC1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2679CF0-9913-46DB-B0B2-94ACEB50BC1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2679CF0-9913-46DB-B0B2-94ACEB50BC1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEEEBBBC-8A7B-489E-AC80-8A19CCA1177B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEEEBBBC-8A7B-489E-AC80-8A19CCA1177B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEEEBBBC-8A7B-489E-AC80-8A19CCA1177B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEEEBBBC-8A7B-489E-AC80-8A19CCA1177B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
