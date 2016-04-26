@@ -13,6 +13,14 @@ namespace WebApplication3.Controllers
             return View();
         }
 
+        [HttpPost]
+        public ActionResult Index(string pvm)
+        {
+            DateTime date = Utilities.DateParsing.ParseFinnishDate(pvm);
+            ViewBag.Päivämäärä = date;
+            return View();
+        }
+
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
