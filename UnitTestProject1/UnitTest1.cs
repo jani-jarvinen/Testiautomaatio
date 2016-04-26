@@ -40,5 +40,14 @@ namespace UnitTestProject1
             odotettu = DateTime.MinValue;
             Assert.AreEqual(odotettu, tulos);
         }
+
+        [TestMethod]
+        public void ViikkonumeroTestit()
+        {
+            DateTime pvm = new DateTime(2016, 4, 26);
+            int tulos = DateParsing.GetWeekNumber(pvm);
+            int odotettu = 17;
+            Assert.AreEqual(odotettu, tulos);
+        }
     }
 }
